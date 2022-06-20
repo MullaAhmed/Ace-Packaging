@@ -465,7 +465,8 @@ header .sticky {
 	transition: 0.4s ease-in-out;
 }
 header .navbar li a {
-	font-size: 14px;
+	font: normal normal normal 15px / 19px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 17px;
 	color: #2d3a4b;
 	font-weight: normal;
 	padding: 15px 0px;
@@ -473,7 +474,7 @@ header .navbar li a {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
-header .navbar li a:before {
+/* header .navbar li a:before {
 	width: 0px;
 	margin: 0px auto;
 	position: absolute;
@@ -488,11 +489,11 @@ header .navbar li a:before {
 	-ms-transition: 0.2s ease-in-out;
 	-o-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
-}
+} */
 header .navbar li a:hover:before {
 	width: 100%;
 }
-header .navbar li.active a:before {
+/* header .navbar li.active a:before {
 	width: 100%;
 	margin: 0px auto;
 	position: absolute;
@@ -507,7 +508,7 @@ header .navbar li.active a:before {
 	-ms-transition: 0.2s ease-in-out;
 	-o-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
-}
+} */
 .nav>li>a:focus, .nav>li>a:hover {
 	background: none;
 }
